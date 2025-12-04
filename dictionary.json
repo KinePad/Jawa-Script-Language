@@ -1,0 +1,14 @@
+{
+  "nulis": "console.log",
+  "fungsi": "function",
+  "bali": "return",
+  "menawa": "if",
+  "lain": "else",
+  "suwene": "while",
+  "kanggo": "for",
+  "bener": "true",
+  "salah": "false",
+  "impor": "import",
+  "ekspor": "export",
+  "variabel": "let"
+}

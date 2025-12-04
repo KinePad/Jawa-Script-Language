@@ -1,0 +1,9 @@
+{
+  "name": "jawa-script",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/transpile.js",
+  "scripts": {
+    "start": "node src/transpile.js examples/example1.jawa"
+  }
+}
