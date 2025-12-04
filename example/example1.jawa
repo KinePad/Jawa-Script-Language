@@ -1,0 +1,5 @@
+fungsi halo(nama) {
+  nulis("Halo " + nama)
+}
+
+halo("Silo")
