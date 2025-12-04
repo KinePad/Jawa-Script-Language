@@ -1,8 +1,9 @@
 # Jawa-Script-Language
 Built in Javanese. Originally Java Script
-If you want to develop this project, you can contribute to its development or give this github project a star.
 
 Jawascript is easy; you don't need to know Jawascript. It uses Javanese and Indonesian.
+
+If you want to develop this project, you can contribute to its development or give this github project a star.
 
 ### Installation 
 
