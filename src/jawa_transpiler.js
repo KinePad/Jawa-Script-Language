@@ -12,16 +12,14 @@ if (args.length === 0) {
 const filePath = path.resolve(args[0]);
 const raw = fs.readFileSync(filePath, "utf8");
 
-// Compile JawaScript menjadi JS
 const jsCode = compile(raw);
 
-// Simpan sementara sebagai file JS
 const tempPath = path.join(process.cwd(), "temp_runtime.js");
 fs.writeFileSync(tempPath, jsCode, "utf8");
 
-// Jalankan file JS dengan import dynamic
 import("file://" + tempPath)
   .then(() => {
-    fs.unlinkSync(tempPath); // hapus sementara setelah jalan
+    fs.unlinkSync(tempPath);
   })
   .catch(err => console.error(err));
+
